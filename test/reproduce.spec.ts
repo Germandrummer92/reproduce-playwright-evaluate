@@ -1,6 +1,6 @@
 import { test } from "@playwright/test";
 
-test.describe.only("evaluate", () => {
+test.describe("evaluate", () => {
   test("evaluate", async ({ page }) => {
     await page.goto("https://google.com");
     await page.waitForLoadState();
