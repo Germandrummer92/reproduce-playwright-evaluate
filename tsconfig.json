@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "strictNullChecks": true
+  },
+  "include": [
+    "**/*.d.ts",
+    "**/*.ts"
+  ]
+}

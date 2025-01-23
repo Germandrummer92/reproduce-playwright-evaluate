@@ -1,0 +1,14 @@
+{
+  "name": "reproduce-evaluate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --config=playwright.config.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
+}
